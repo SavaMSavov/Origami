@@ -1,13 +1,10 @@
-import style from "./Header.module.css";
+import style from "./Footer.module.css";
 import NavigationItem from "./NavigationItem";
 
-const Header = () => {
+const Footer = () => {
   return (
-    <nav className={style.navigation}>
+    <nav className={style.footer}>
       <ul>
-        <NavigationItem>
-          <img src="/white-origami-bird.png"></img>
-        </NavigationItem>
         <NavigationItem>Going to 1</NavigationItem>
         <NavigationItem>Going to 2</NavigationItem>
         <NavigationItem>Going to 3</NavigationItem>
@@ -19,9 +16,15 @@ const Header = () => {
         <NavigationItem>Going to 9</NavigationItem>
         <NavigationItem>Going to 10</NavigationItem>
         <NavigationItem>Going to 11</NavigationItem>
+        <NavigationItem>
+          <img src="/blue-origami-bird-flipped.png"></img>
+        </NavigationItem>
       </ul>
+      <p className={style.para}>
+        asassssssssssssssssssssssssssssssssssssssssssss
+      </p>
     </nav>
   );
 };
 
-export default Header;
+export default Footer;
