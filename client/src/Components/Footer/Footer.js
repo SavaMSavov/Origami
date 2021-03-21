@@ -17,7 +17,7 @@ const Footer = () => {
         <NavigationItem>Going to 10</NavigationItem>
         <NavigationItem>Going to 11</NavigationItem>
         <NavigationItem>
-          <img src="/blue-origami-bird-flipped.png"></img>
+          <img src="/blue-origami-bird-flipped.png" alt="flipped-bird"></img>
         </NavigationItem>
       </ul>
       <p className={style.para}>

@@ -6,9 +6,15 @@
   border-top: 2px solid #234465;
   border-bottom: 2px solid #234465;
   margin-bottom: 1%;
+  padding-bottom: 3%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .para {
+  margin-top: 2%;
   text-align: center;
   font-weight: bold;
 }
